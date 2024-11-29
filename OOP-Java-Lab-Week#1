@@ -1,0 +1,174 @@
+TASK 1
+SOURCE CODE:
+
+package stringarray;
+
+
+public class Stringarray {
+
+    
+    public static void main(String[] args) {
+        String[]arr={"PF","OOP","DLD","ICT"};
+        for(int i=0;i<arr.length;i++)
+        {
+            System.out.println(arr[i]);
+        }
+    }
+    
+}
+
+
+
+
+
+OUTPUT:
+
+
+
+
+
+
+
+
+
+
+TASK 2
+SOURCE CODE:
+
+package evenodd;
+
+
+public class Evenodd {
+
+    
+    public static void main(String[] args) {
+        int i=10;
+        int j=5;
+        if(i%2==0)
+        {
+        System.out.println(i+" is even number");
+    }
+       else
+       {
+        System.out.println(i+" is odd number");
+                }
+  
+     if(j%2==0)
+        {
+        System.out.println(j+" is even number");
+    }
+       else
+       {
+        System.out.println(j+" is odd number");
+                }
+    }
+    
+}
+OUTPUT:
+
+
+
+
+
+
+TASK 3
+SOURCE CODE:
+
+package whileloop;
+
+public class Whileloop {
+
+    
+    public static void main(String[] args) {
+       int i=1;
+       while (i<=20)
+       {if(i%2==0)
+           {
+           System.out.println(i);
+           }
+           i++;
+    }
+    
+}
+}
+
+
+
+
+OUTPUT:
+
+
+
+
+
+
+
+
+
+
+
+TASK 4
+SOURCE CODE:
+package pattern;
+
+public class Pattern {
+    public static void main(String[] args) {
+        int r = 4;
+        int c = 6;
+        
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.println("* ");
+            }
+            System.out.println(); 
+        }
+    }
+}
+
+
+
+
+
+
+OUTPUT:
+
+
+
+
+
+
+
+
+
+
+
+TASK 5
+SOURCE CODE:
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package factorial;
+
+/**
+ *
+ * @author ZBOOK
+ */
+public class Factorial {
+
+    
+    public static void main(String[] args) {
+       int num=10;
+       int factorial=1;
+       int i=1;
+       factorial*=i;
+       while(i<=num){
+       factorial*=i;
+       i++;
+       }
+       System.out.println("Factorial of " + num+ " is "+factorial);
+    }
+    
+}
+OUTPUT:
+
